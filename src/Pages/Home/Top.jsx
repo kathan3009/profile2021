@@ -48,10 +48,9 @@ function Top() {
             <span className="hover:text-green-900 transition duration-200 font-bold text-pink-700">
               <a href="https://bugbase.in" target="_blank" rel="noreferrer">
                 BugBase
-              </a>{" "}
+              </a>
             </span>
-            . I love to make fully functional websites/apps.I am very passionate
-            about my work and like to learn new things.
+            .
           </p>
           <button className=" hidden sm:block  my-8 h-12 w-40 p-2 font-helvetica-b bg-blue-700 text-2xl text-white rounded-lg focus:outline-none ring-8 ring-blue-200 transform hover:scale-75  transition duration-700 ease-in-out">
             <a
@@ -65,7 +64,7 @@ function Top() {
         </div>
         <div className="">
           <img
-            className="shadow-lg rounded-lg h-60 w-60 md:h-80 md:w-80  filter grayscale transform hover:scale-105 transition duration-700 ease-in-out"
+            className="shadow-lg rounded-lg h-48 w-48 sm:h-60 sm:w-60 sm:mt-0 md:h-80 md:w-80  filter grayscale transform hover:scale-105 transition duration-700 ease-in-out"
             src={photo}
             alt="BugBase COO"
           />
