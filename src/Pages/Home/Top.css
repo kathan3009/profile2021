@@ -1,0 +1,30 @@
+    @media screen and (max-width:520px) {
+        .phone{
+            padding: 0 3rem !important;
+            height: 80vh !important;
+        }
+        .phonesm{
+            margin-top: 2rem !important;
+            padding: 0 3rem !important;
+        }
+    }
+
+
+    @media screen and (min-width:521px) and (max-width:620px) {
+        .phonesm{
+            margin-top: 5rem !important;
+            padding: 0 5rem !important;
+        }
+    }
+
+
+    @media screen and (min-width:620px) and (max-width:710px) {
+        .phonesm{
+            margin-top: 3.5rem !important;
+            padding: 0 3rem !important;
+        }
+        .phone{
+            padding: 0 !important;
+        }
+    }
+
